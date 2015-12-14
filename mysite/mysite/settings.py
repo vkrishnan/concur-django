@@ -122,8 +122,8 @@ STATIC_URL = '/static/'
 
 LOGIN_REDIRECT_URL = '/djsite'
 
-SOCIAL_AUTH_TWITTER_KEY = '3raw7bBkOIdvwB42M9TwUcfeT'
-SOCIAL_AUTH_TWITTER_SECRET = '1nsWwKP7IjF2SvfSWDuyl6s6zaCDbt3a2zmSjygz4yKxfx799n'
+SOCIAL_AUTH_TWITTER_KEY = '9EL3UsmvDDttYFQFCjunDYLxP'
+SOCIAL_AUTH_TWITTER_SECRET = 'q1GKWDlp1AyFOMxgn0efdLKckx9TC5J3hNMmmHJvFEGQTlB5d9'
 
 REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 AUTHORIZE_URL = "https://api.twitter.com/oauth/authorize?oauth_token="
