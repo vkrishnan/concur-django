@@ -10,15 +10,16 @@
      <li>
        <a>Hello {{ user.get_full_name|default:user.username }}!</a>
      </li>
-     <li>
-	     <p>Please get the authorization code here: <a href="{{ auth.url }}" target="_blank">Twitter</a></p>
-     </li>
+
+     <br>
+     <a href="{% url 'send' %}">Tweet current temperature</a><br><br>
+
      <li>
        <a href="{% url 'auth:logout' %}?next={{ request.path }}">Logout</a>
      </li>
    {% else %}
      <li>
-       <a href="{% url 'social:begin' 'twitter' %}?next={{ request.path }}">Login with Twitter</a>
+       <a href="{% url 'social:begin' 'twitter' %}?next=/get_request_token">Login with Twitter</a>
      </li>
    {% endif %}
    </ul>

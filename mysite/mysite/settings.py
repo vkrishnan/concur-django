@@ -120,10 +120,10 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-LOGIN_REDIRECT_URL = '/djsite'
+LOGIN_REDIRECT_URL = '/callback'
 
-SOCIAL_AUTH_TWITTER_KEY = '9EL3UsmvDDttYFQFCjunDYLxP'
-SOCIAL_AUTH_TWITTER_SECRET = 'q1GKWDlp1AyFOMxgn0efdLKckx9TC5J3hNMmmHJvFEGQTlB5d9'
+SOCIAL_AUTH_TWITTER_KEY = 'gQWWNXQUt1rMHnvj6M2lEhBgD'
+SOCIAL_AUTH_TWITTER_SECRET = 'N9qA7LuYfiFMJY9aXYb3YTEMCp7MtSNWiHCCo3XsO7qNQj7o2N'
 
 REQUEST_TOKEN_URL = "https://api.twitter.com/oauth/request_token"
 AUTHORIZE_URL = "https://api.twitter.com/oauth/authorize?oauth_token="
